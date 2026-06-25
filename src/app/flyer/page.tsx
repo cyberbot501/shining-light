@@ -181,7 +181,7 @@ async function drawFlyer(canvas: HTMLCanvasElement, name: string, photoSrc: stri
   /* 15 · Date line */
   ctx.fillStyle = 'rgba(255,255,255,0.35)';
   ctx.font = '500 23px Montserrat';
-  ctx.fillText('[Date] • [Time] • CAC Chapel Lautech', W / 2, 1224);
+  ctx.fillText('20th July 2026 • CAC Chapel Lautech', W / 2, 1224);
 
   /* 16 · Divider */
   goldLine(ctx, W / 2, 1267, 175);
@@ -313,7 +313,7 @@ export default function FlyerPage() {
                 </div>
 
                 <p style={{ fontFamily: 'var(--font-playfair)', fontStyle: 'italic', fontSize: 50, opacity: 0.65, color: '#fff', marginTop: 80 }}>The Shining Light Dinner Night</p>
-                <p style={{ fontSize: 26, opacity: 0.35, color: '#fff', marginTop: 18 }}>[Date] &bull; [Time] &bull; CAC Chapel Lautech</p>
+                <p style={{ fontSize: 26, opacity: 0.35, color: '#fff', marginTop: 18 }}>20th July 2026 &bull; CAC Chapel Lautech</p>
 
                 <div style={{ width: 350, height: 1.5, background: 'linear-gradient(90deg,transparent,rgba(201,162,39,0.5),transparent)', margin: '48px auto 24px' }} />
                 <p style={{ fontSize: 21, fontWeight: 600, opacity: 0.28, letterSpacing: 2, color: '#fff' }}>CAC CHAPEL LAUTECH &bull; FYB CLASS &apos;26</p>
@@ -437,7 +437,7 @@ export default function FlyerPage() {
 
           <p style={{ fontSize: '0.65rem', opacity: 0.25, textAlign: 'center', marginTop: '1rem', lineHeight: 1.6 }}>
             Free to download &bull; No account needed<br />
-            Remember to update the [Date] &amp; [Venue] before sharing
+            Your flyer is ready to share!
           </p>
         </div>
       </div>
